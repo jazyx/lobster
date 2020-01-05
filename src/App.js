@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Item from './Components/item'
+import Info from './Components/info'
 import Buttons from './Components/buttons'
 
 
@@ -71,6 +72,9 @@ class App extends Component {
     return (
       <div className="App">
         <Item
+          item={this.state.item}
+        />
+        <Info
           item={this.state.item}
         />
         <Buttons

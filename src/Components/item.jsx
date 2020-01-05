@@ -7,8 +7,24 @@ import React, { Component } from 'react';
 import styled, { css } from 'styled-components'
 
 
+const StyledItem = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: ${props => props.height}px;
+`
+
 const StyledText = styled.p`
   font-size: ${props => props.fontSize};
+`
+
+
+const StyledDates = styled.p`
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 3vmin;
 `
 
 
@@ -34,9 +50,15 @@ export default class Item extends Component {
   getMaxSizes() {
     const rect = document.body.getBoundingClientRect()
     const maxWidth = rect.width   * 0.96
-    const maxHeight = rect.height * 0.8699 // fudge factor for Verdana
+    // const maxHeight = rect.height * 0.8699 // fudge factor for Verdana
+    const fullHeight = ( rect.width > rect.height )
+                       ? rect.height
+                       : rect.height - (
+                           Math.min(rect.width, rect.height * 0.8)
+                         )
+    const maxHeight = fullHeight * 0.8699 // fudge factor for Verdana
 
-    return { maxWidth, maxHeight }
+    return { maxWidth, maxHeight, fullHeight }
   }
 
 
@@ -46,12 +68,15 @@ export default class Item extends Component {
   }
 
 
-  getOptimumFontSize(text) {
+  getOptimumFontSize(text, dates) {
     const context = this.canvas.getContext('2d')
+    const maxHeight = ( dates )
+                      ? this.state.fullHeight * 0.7
+                      : this.state.maxHeight
 
     let width
       , step
-    let height = step = this.state.maxHeight
+    let height = step = maxHeight 
     let steps = 16
 
     do {     
@@ -63,7 +88,7 @@ export default class Item extends Component {
 
       if (width > this.state.maxWidth) {
         height -= step
-      } else if (height === this.state.maxHeight) {
+      } else if (height === maxHeight) {
         step = 0
       } else {
         height += step
@@ -71,18 +96,18 @@ export default class Item extends Component {
 
     } while (steps && (step > 0.01 || width > this.state.maxWidth))
 
-    console.log(height)
-
     return height + "px"
   }
 
 
   render() {
     const text = this.props.item.text
-    const fontSize = this.getOptimumFontSize(text)
+    const dates = (this.props.item.details || {}).dates
+    const fontSize = this.getOptimumFontSize(text, dates)
 
     return (
-      <div
+      <StyledItem
+        height={this.state.fullHeight}
         id="item"
       >
         <StyledText
@@ -90,7 +115,10 @@ export default class Item extends Component {
         >
           {text}
         </StyledText>
-      </div>
+        <StyledDates>
+          {dates}
+        </StyledDates>
+      </StyledItem>
     )
   }
 }
