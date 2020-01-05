@@ -1,0 +1,724 @@
+ { "colours": {
+    "Big Cities": "#999"
+  , "Domesticated Animals": "#960"
+  , "Household items": "#fc0"
+  , "Commodities": "#48b"
+  , "Famous People": "#d1a3a4"
+  }
+
+, "items":  [
+    { "text": "cat"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Fertile Crescent"
+      , "date": "8500 BCE"
+      }
+    }
+ , { "text": "washing machine"
+    , "category": "Household items"
+    , "details": {
+        "place": "Germany"
+      , "inventor": "Jacob Christian Schäffer"
+      , "date": "1767"
+      }
+    }
+  , 
+
+  { "text": "Tokyo"
+    , "details": {
+        "country": "Japan"
+      , "population": "31 million"
+      }
+    }
+  , { "text": "Delhi"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "India"
+      , "population": "26 million"
+      }
+    }
+  , { "text": "Shanghai"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "China"
+      , "population": "24 million"
+      }
+    }
+  , { "text": "Sao Paulo"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "Brazil"
+      , "population": "21 million"
+      }
+    }
+  , { "text": "Mexico City"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "Mexico"
+      , "population": "21 million"
+      }
+    }
+  , { "text": "Beijing"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "China"
+      , "population": "20 million"
+      }
+    }
+  , { "text": "Cairo"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "Egypt"
+      , "population": "19 million"
+      }
+    }
+  , { "text": "New York"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "USA"
+      , "population": "19 million"
+      }
+    }
+  , { "text": "Buenos Aires"
+  , "category": "Big Cities"
+    , "details": {
+        "country": "Argentia"
+      , "population": "15 million"
+      }
+    }
+  , { "text": "Istanbul"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "Turkey"
+      , "population": "14 million"
+      }
+    }
+ , { "text": "Rio de Janeiro "
+    , "category": "Big Cities"
+    , "details": {
+        "country": "Brazil"
+      , "population": "13 million"
+      }
+    }
+  , { "text": "Los Angeles"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "USA"
+      , "population": "12 million"
+      }
+    }
+  , { "text": "Moscow"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "Russian Federation"
+      , "population": "12 million"
+      }
+    }
+  , { "text": "Paris"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "France"
+      , "population": "11 million"
+      }
+    }
+  , { "text": "London"
+    , "category": "Big Cities"
+    , "details": {
+        "country": "United Kingdom"
+      , "population": "10 million"
+      }
+    }
+
+
+  , { "text": "dog"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "unknown"
+      , "date": "14~30 000 BCE"
+      }
+    }
+  , { "text": "sheep"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Western Asia"
+      , "date": "8500 BCE"
+      }
+    }
+  , { "text": "cat"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Fertile Crescent"
+      , "date": "8500 BCE"
+      }
+    }
+  , { "text": "goat"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Western Asia"
+      , "date": "8500 BCE"
+      }
+    }
+  , { "text": "pig"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Western Asia"
+      , "date": "7000 BCE"
+      }
+    }
+  , { "text": "cow"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Eastern Sahara"
+      , "date": "7000 BCE"
+      }
+    }
+  , { "text": "donkey"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Northeast Africa"
+      , "date": "4000 BCE"
+      }
+    }
+  , { "text": "horse"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Kazakhstan"
+      , "date": "3600 BCE"
+      }
+    }
+  , { "text": "silkworm"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "China"
+      , "date": "3500 BCE"
+      }
+    }
+  , { "text": "camel"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "China or Mongolia"
+      , "date": "3500 BCE"
+      }
+    }
+  , { "text": "bee"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Near East or Western Asia"
+      , "date": "3000 BCE"
+      }
+    }
+  , { "text": "duck"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Western Asia"
+      , "date": "2500 BCE"
+      }
+    }
+  , { "text": "goose"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Germany"
+      , "date": "1500 BCE"
+      }
+    }
+  , { "text": "reindeer"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Siberia"
+      , "date": "1000 BCE"
+      }
+    }
+  , { "text": "turkey"
+    , "category": "Domesticated Animals"
+    , "details": {
+        "place": "Mexico"
+      , "date": " 100 BC-AD"
+      }
+    }
+
+
+  , { "text": "Cooking pots"
+    , "category": "Household items"
+    , "details": {
+        "copper": "Mesopotamia, 4500 BCE"
+      , "cast iron": "China, 500 BCE"
+      , "glass": "Germany, 1893"
+      }
+    }
+  , { "text": "oven"
+    , "category": "Household items"
+    , "details": {
+        "place": "Central Europe"
+      , "inventor": "unknown"
+      , "date": "29 000 BCE"
+      }
+    }
+  , { "text": "vacuum cleaner"
+    , "category": "Household items"
+    , "details": { 
+        "place": "Ohio USA"
+      , "inventor": ""
+      , "date": "1907"
+      }
+    }
+  , { "text": "iron"
+    , "category": "Household items"
+    , "details": {
+        "place": "China"
+      , "inventor": "unknown"
+      , "date": "100 BCE"
+      }
+    }
+  , { "text": "light bulb"
+    , "category": "Household items"
+    , "details": {
+        "place": "UK"
+      , "inventor": "Warren de la Rue"
+      , "date": "1840"
+      }
+    }
+  , { "text": "toaster"
+    , "category": "Household items"
+    , "details": {
+        "place": "Scotland"
+      , "inventor": "Alan MacMasters"
+      , "date": "1893"
+      }
+    }
+  , { "text": "refrigerator"
+    , "category": "Household items"
+    , "details": {
+        "place": "Australia"
+      , "inventor": "James Harrison"
+      , "date": "1854"
+      }
+    }
+  , { "text": "dishwasher"
+    , "category": "Household items"
+    , "details": {
+        "place": "Illinois, USA"
+      , "inventor": "Josephine Garis Cochran"
+      , "date": "1886"
+      }
+    }
+ , { "text": "washing machine"
+    , "category": "Household items"
+    , "details": {
+        "place": "Germany"
+      , "inventor": "Jacob Christian Schäffer"
+      , "date": "1767"
+      }
+    }
+  , { "text": "clothes dryer"
+    , "category": "Household items"
+    , "details": {
+        "place": "North Dakota, USA"
+      , "inventor": "J. Ross Moore"
+      , "date": "1938"
+      }
+    } 
+  , { "text": "coffee filter"
+    , "category": "Household items"
+    , "details": {
+        "place": "Germany"
+      , "inventor": "Melitta Bentz"
+      , "date": "1908"
+      }
+    }
+  , { "text": "sewing machine"
+    , "category": "Household items"
+    , "details": {
+        "place": "France"
+      , "inventor": "Barthélemy Thimonnier"
+      , "date": "1829"
+      }
+    }
+  , { "text": "doorbell"
+    , "category": "Household items"
+    , "details": {
+        "place": "New York, USA"
+      , "inventor": "Joseph Henry"
+      , "date": "1831"
+      }
+    }
+  , { "text": "smartphone"
+    , "category": "Household items"
+    , "details": {
+        "place": "USA"
+      , "inventor": "Frank Canova"
+      , "date": "1994"
+      }
+    }
+  , { "text": "toilet"
+    , "category": "Household items"
+    , "details": {
+        "place": "Scotland"
+      , "inventor": "Alexander Cummings"
+      , "date": "1775"
+      }
+    }
+
+
+  , { "text": "wheat"
+    , "category": "Commodities"
+    , "image": {
+        "url": "wheat.jpg"
+      , "author": "Anrita1705"
+      , "source": "https://www.needpix.com/photo/1908768/wheat-wheat-field-field-nature-spike-field-walk-food-cereals-grain"
+      , "licence": "CC0 1.0 Universal Public Domain Dedication"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    }
+  , { "text": "coffee"
+    , "category": "Commodities"
+    , "image": {
+        "url": "coffee.jpg"
+      , "author": "MarkSweep"
+      , "source": "https://en.wikipedia.org/wiki/File:Roasted_coffee_beans.jpg"
+      , "licence": "Public Domain"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    }
+  , { "text": "sugar"
+    , "category": "Commodities"
+    , "image": {
+        "url": "sugar.jpg"
+      , "author": "david pacey"
+      , "source": "https://flickr.com/photos/63723146@N08/7164573186"
+      , "licence": "Creative Commons Attribution 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    }
+  , { "text": "milk"
+    , "category": "Commodities"
+    , "image": {
+        "url": "milk.jpg"
+      , "author": "Martin Vorel"
+      , "source": "https://libreshot.com/milk-is-poured-into-a-glass/"
+      , "licence": "Public Domain"
+      , "licenceURL": "https://creativecommons.org/licenses/publicdomain/"
+      }
+    }
+  , { "text": "rice"
+    , "category": "Commodities"
+    , "image": {
+        "url": "rice.jpg"
+      , "author": "Takeaway"
+      , "source": "https://commons.wikimedia.org/wiki/File:2014_uncooked_Thai_jasmine_rice.jpg"
+      , "licence": "Creative Commons Attribution-Share Alike 4.0 International"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  , { "text": "cocoa"
+    , "category": "Commodities"
+    , "image": {
+        "url": "cocoa.jpg"
+      , "author": "ulleo"
+      , "source": "https://pixnio.com/food-and-drink/desserts-cakes/cocoa-chocolate-black-coffee-food-sweet-diet-brown"
+      , "licence": "Public Domain"
+      , "licenceURL": "https://creativecommons.org/licenses/publicdomain/"
+      }
+    }
+  , { "text": "meat"
+    , "category": "Commodities"
+    , "image": {
+        "url": "meat.jpg"
+      , "author": "Winfried Mosler"
+      , "source": "https://www.flickr.com/photos/winnstern/2050917990"
+      , "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0/"
+      }
+    }
+  , { "text": "wool"
+    , "category": "Commodities"
+    , "image": {
+        "url": "wool.jpg"
+      , "author": "THaymann"
+      , "source": "https://www.needpix.com/photo/1188134/wool-wollkneul-color"
+      , "licence": "CC0 1.0 Universal Public Domain Dedication"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    }
+  , { "text": "cotton"
+    , "category": "Commodities"
+    , "image": {
+        "url": "cotton.jpg"
+      , "author": "Kimberly Vardeman"
+      , "source": "https://commons.wikimedia.org/wiki/File:Cotton_field_kv17.jpg"
+      , "licence": "Creative Commons Attribution 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by/2.0/deed.en"
+      }
+    }
+  , { "text": "wood"
+    , "category": "Commodities"
+    , "image": {
+        "url": "wood.jpg"
+      , "author": "Syahmir"
+      , "source": "https://www.flickr.com/photos/syahmir/6875218888"
+      , "licence": "Creative Commons Attribution 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    }
+  , { "text": "rubber"
+    , "category": "Commodities"
+    , "image": {
+        "url": "rubber.jpg"
+      , "author": "PerH"
+      , "source": "https://www.needpix.com/photo/download/533015/tires-wheel-rubber-free-pictures-free-photos-free-images-royalty-free-free-illustrations"
+       , "licence": "Creative Commons Attribution-Share Alike 4.0 International"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+     }
+    }
+  , { "text": "oil"
+    , "category": "Commodities"
+    , "image": {
+        "url": "oil.jpg"
+      , "author": "unknown"
+      , "source": "https://www.pxfuel.com/en/free-photo-qkuyt"
+      , "licence": "Creative Commons Zero"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
+  , { "text": "steel"
+    , "category": "Commodities"
+    , "image": {
+        "url": "steel.jpg"
+      , "author": "unknown"
+      , "source": "https://pxhere.com/en/photo/631190"
+      , "licence": "CC0 1.0 Universal Public Domain Dedication"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    }
+  , { "text": "aluminium"
+    , "category": "Commodities"
+    , "image": {
+        "url": "aluminium.jpg"
+      , "author": "Auckland Museum"
+      , "source": "https://commons.wikimedia.org/wiki/File:Container,_aluminium_(AM_2014.56.30-2).jpg"
+      , "licence": "Creative Commons Attribution 4.0 International"
+      , "licenceURL": "https://creativecommons.org/licenses/by/4.0/deed.en"
+      }
+    }
+  , { "text": "gold"
+    , "category": "Commodities"
+    , "image": {
+        "url": "gold.jpg"
+      , "author": "Michael Steinberg"
+      , "source": "https://www.pexels.com/photo/business-global-intergold-gold-bars-gold-is-money-369270/"
+      , "licence": "Free use"
+      , "licenceURL": "https://www.pexels.com/photo-license/"
+      }
+    }
+
+
+  , { "text": "Marilyn Monroe"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1926 – 1962"
+      }
+    , "image": {
+        "url": "marilyn.jpg"
+      , "author": "Frank Powolny"
+      , "source": "https://commons.wikimedia.org/wiki/File:Monroe_1953_publicity.jpg"
+      , "licence": "Public Domain"
+      , "licenceURL": ""
+      }
+    }
+    
+  , { "text": "Agatha Christie"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1890 – 1976"
+      }
+    , "image": {
+        "url": "agatha.jpg"
+      , "author": ""
+      , "source": "https://farmweek.com/wp-content/uploads/2018/12/2.2579832.jpg"
+      , "licence": ""
+      , "licenceURL": ""
+      }
+    }
+    
+  , { "text": "Coco Chanel"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1883 – 1971"
+      }
+    , "image": {
+        "url": "coco.jpg"
+      , "author": "Time / Getty"
+      , "source": "https://en.wikipedia.org/wiki/File:Coco_Chanel,_1920.jpg"
+      , "licence": "Public Domain"
+      , "licenceURL": ""
+      }
+    }
+    
+  , { "text": "Marie Curie"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1867 – 1934"
+      }
+    , "image": {
+        "url": "marie.jpg"
+      , "author": "Henri Manuel"
+      , "source": "https://commons.wikimedia.org/wiki/File:Marie_Curie_-_Henri_Manuel.jpg"
+      , "licence": "Public Domain"
+      , "licenceURL": ""
+      }
+    }
+    
+  , { "text": "Jane Austen"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1775 – 1817"
+      }
+    , "image": {
+        "url": "jane.jpg"
+      , "author": "Cassandra Austen "
+      , "source": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg"
+      , "licence": "Public Domain"
+      , "licenceURL": ""
+      }
+    }
+    
+  , { "text": "Edith Piaf"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1915 – 1963"
+      }
+    , "image": {
+        "url": "edith.jpg"
+      , "author": "Eric Koch"
+      , "source": "https://commons.wikimedia.org/wiki/File:Édith_Piaf_914-6440.jpg"
+      , "licence": "CC0 1.0 Universal Public Domain Dedication"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    }
+    
+  , { "text": "Cleopatra"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "69 – 30 BCE"
+      }
+    , "image": {
+        "url": "cleopatra.jpg"
+      , "author": "unknown"
+      , "source": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+      , "licence": "Public Domain"
+      , "licenceURL": ""
+      }
+    }
+    
+  , { "text": "Joan of Arc"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1412 – 1431"
+      }
+    , "image": {
+        "url": "XXX"
+      , "author": "XXX"
+      , "source": "XXX"
+      , "licence": "XXX"
+      , "licenceURL": "XXX"
+      }
+    }
+    
+  , { "text": "Mother Teresa"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1910 – 1997"
+      }
+    , "image": {
+        "url": "XXX"
+      , "author": "XXX"
+      , "source": "XXX"
+      , "licence": "XXX"
+      , "licenceURL": "XXX"
+      }
+    }
+    
+  , { "text": "Anne Frank"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1929 – 1945"
+      }
+    , "image": {
+        "url": "XXX"
+      , "author": "XXX"
+      , "source": "XXX"
+      , "licence": "XXX"
+      , "licenceURL": "XXX"
+      }
+    }
+    
+  , { "text": "Amelia Earhart"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1897 — 1937"
+      }
+    , "image": {
+        "url": "XXX"
+      , "author": "XXX"
+      , "source": "XXX"
+      , "licence": "XXX"
+      , "licenceURL": "XXX"
+      }
+    }
+    
+  , { "text": "Mary Shelley"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1797 – 1851"
+      }
+    , "image": {
+        "url": "XXX"
+      , "author": "XXX"
+      , "source": "XXX"
+      , "licence": "XXX"
+      , "licenceURL": "XXX"
+      }
+    }
+    
+  , { "text": "Maria Montessori"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1870 – 1952"
+      }
+    , "image": {
+        "url": "XXX"
+      , "author": "XXX"
+      , "source": "XXX"
+      , "licence": "XXX"
+      , "licenceURL": "XXX"
+      }
+    }
+    
+  , { "text": "Catherine the Great"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1729 – 1796"
+      }
+    , "image": {
+        "url": "catherine.jpg"
+      , "author": "unknown"
+      , "source": "https://commons.wikimedia.org/wiki/File:Catherine_II_by_J.B.Lampi_(1780s,_Kunsthistorisches_Museum).jpg"
+      , "licence": "Public Domain"
+      , "licenceURL": ""
+      }
+    }
+    
+  , { "text": "Rosalind Franklin"
+    , "category": "Famous People"
+    , "details": {
+        "dates": "1920 – 1958"
+      }
+    , "image": {
+        "url": "XXX"
+      , "author": "XXX"
+      , "source": "XXX"
+      , "licence": "XXX"
+      , "licenceURL": "XXX"
+      }
+    }
+  ]
+}
