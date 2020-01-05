@@ -30,13 +30,13 @@ const StyledUList = styled.ul`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 4vmin;
+  font-size: 3.5vmin;
   list-style: none;
   margin: 0;
   padding: 0;
 
   & li {  
-    margin: 0.5em 0;
+    margin: 0.25em 0;
   }
 
   & a {
