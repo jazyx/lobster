@@ -8,13 +8,329 @@
 
 , "items":  [
     { "text": "Tokyo"
-    , "details": {
-        "country": "Japan"
-      , "population": "31 million"
-      }
+    , "details": [
+        "Country: Japan"
+      , "Population: 31 million"
+      ]
+    }
+  , { "text": "Delhi"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: India"
+      , "Population: 26 million"
+      ]
+    }
+  , { "text": "Shanghai"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: China"
+      , "Population: 24 million"
+      ]
+    }
+  , { "text": "Sao Paulo"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: Brazil"
+      , "Population: 21 million"
+      ]
+    }
+  , { "text": "Mexico City"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: Mexico"
+      , "Population: 21 million"
+      ]
+    }
+  , { "text": "Beijing"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: China"
+      , "Population: 20 million"
+      ]
+    }
+  , { "text": "Cairo"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: Egypt"
+      , "Population: 19 million"
+      ]
+    }
+  , { "text": "New York"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: USA"
+      , "Population: 19 million"
+      ]
+    }
+  , { "text": "Buenos Aires"
+  , "category": "Big Cities"
+    , "details": [
+        "Country: Argentia"
+      , "Population: 15 million"
+      ]
+    }
+  , { "text": "Istanbul"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: Turkey"
+      , "Population: 14 million"
+      ]
+    }
+ , { "text": "Rio de Janeiro "
+    , "category": "Big Cities"
+    , "details": [
+        "Country: Brazil"
+      , "Population: 13 million"
+      ]
+    }
+  , { "text": "Los Angeles"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: USA"
+      , "Population: 12 million"
+      ]
+    }
+  , { "text": "Moscow"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: Russian Federation"
+      , "Population: 12 million"
+      ]
+    }
+  , { "text": "Paris"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: France"
+      , "Population: 11 million"
+      ]
+    }
+  , { "text": "London"
+    , "category": "Big Cities"
+    , "details": [
+        "Country: United Kingdom"
+      , "Population: 10 million"
+      ]
     }
 
-    
+
+  , { "text": "dog"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in unknown location"
+      , "around 14~30 000 BCE"
+      ]
+    }
+  , { "text": "sheep"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Western Asia"
+      , "around 8500 BCE"
+      ]
+    }
+  , { "text": "cat"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in the Fertile Crescent"
+      , "around 8500 BCE"
+      ]
+    }
+  , { "text": "goat"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Western Asia"
+      , "around 8500 BCE"
+      ]
+    }
+  , { "text": "pig"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Western Asia"
+      , "around 7000 BCE"
+      ]
+    }
+  , { "text": "cow"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Eastern Sahara"
+      , "around 7000 BCE"
+      ]
+    }
+  , { "text": "donkey"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Northeast Africa"
+      , "around 4000 BCE"
+      ]
+    }
+  , { "text": "horse"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Kazakhstan"
+      , "around 3600 BCE"
+      ]
+    }
+  , { "text": "silkworm"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in China"
+      , "around 3500 BCE"
+      ]
+    }
+  , { "text": "camel"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in China or Mongolia"
+      , "around 3500 BCE"
+      ]
+    }
+  , { "text": "bee"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in the Near East or Western Asia"
+      , "around 3000 BCE"
+      ]
+    }
+  , { "text": "duck"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Western Asia"
+      , "around 2500 BCE"
+      ]
+    }
+  , { "text": "goose"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Germany"
+      , "around 1500 BCE"
+      ]
+    }
+  , { "text": "reindeer"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Siberia"
+      , "around 1000 BCE"
+      ]
+    }
+  , { "text": "turkey"
+    , "category": "Domesticated Animals"
+    , "details": [
+        "First domesticated in Mexico"
+      , "around 100 BC-AD"
+      ]
+    }
+
+
+  , { "text": "cooking pots"
+    , "category": "Household items"
+    , "details": [
+        "Copper pots found in Mesopotamia, 4500 BCE"
+      , "Cast iron pots found in China, 500 BCE"
+      , "Glass dishes first used in Germany, 1893"
+      ]
+    }
+  , { "text": "oven"
+    , "category": "Household items"
+    , "details": [
+        "Origin: Central Europe"
+      , "around 29 000 BCE"
+      ]
+    }
+  , { "text": "electric vacuum cleaner"
+    , "category": "Household items"
+    , "details": [
+        "Invented by James Murray Spangler"
+      , "in Canton, Ohio USA in 1907"
+      ]
+    }
+  , { "text": "iron"
+    , "category": "Household items"
+    , "details": [
+        "First used in China"
+      , "around 100 BCE"
+      ]
+    }
+  , { "text": "light bulb"
+    , "category": "Household items"
+    , "details": [
+        "Multiple contributing inventors"
+      , "starting with Humphry Davy (1802)"
+      , "Warren de la Rue (1840)"
+      , "Joseph Wilson Swan (1850 - 1878 patent)"
+      , "Thomas Edison (1879 patent)"
+      ]
+    }
+  , { "text": "toaster"
+    , "category": "Household items"
+    , "details": [
+        "Invented by Alan MacMasters"
+      , "in Scotland in 1893"
+      ]
+    }
+  , { "text": "refrigerator"
+    , "category": "Household items"
+    , "details": [
+        "Invented by James Harrison"
+      , "in Australia in 1854"
+      ]
+    }
+  , { "text": "dishwasher"
+    , "category": "Household items"
+    , "details": [
+        "Invented by Josephine Garis Cochran"
+      , "in Illinois, USA, in 1886"
+      ]
+    }
+ , { "text": "washing machine"
+    , "category": "Household items"
+    , "details": [
+        "Invented by Jacob Christian Schäffer"
+      , "in Germany in 1767"
+      ]
+    }
+  , { "text": "clothes dryer"
+    , "category": "Household items"
+    , "details": [
+        "Invented by J. Ross Moore"
+      , "in North Dakota, USA, in 1938"
+      ]
+    } 
+  , { "text": "coffee filter"
+    , "category": "Household items"
+    , "details": [
+        "Invented by Melitta Bentz"
+      , "in Germany in 1908"
+      ]
+    }
+  , { "text": "sewing machine"
+    , "category": "Household items"
+    , "details": [
+        "Multiple contributing inventors"
+      , "notably including Barthélemy Thimonnier"
+      , "in France in 1829"
+      ]
+    }
+  , { "text": "doorbell"
+    , "category": "Household items"
+    , "details": [
+        "Invented by Joseph Henry"
+      , "in New York, USA, in 1831"
+      ]
+    }
+  , { "text": "smartphone"
+    , "category": "Household items"
+    , "details": [
+        "First multi-function phone"
+      , "created by Frank Canova"
+      , "while working at IBM in 1994"
+      ]
+    }
+  , { "text": "toilet"
+    , "category": "Household items"
+    , "details": [
+        "Invented by Alexander Cummings"
+      , "in Scotland in 1775"
+      ]
+    }
 
 
   , { "text": "wheat"
@@ -131,7 +447,7 @@
     , "category": "Commodities"
     , "image": {
         "src": "oil.jpg"
-      , "author": "unknown"
+      , "author": "unknown author"
       , "source": "https://www.pxfuel.com/en/free-photo-qkuyt"
       , "licence": "Creative Commons Zero"
       , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
@@ -141,7 +457,7 @@
     , "category": "Commodities"
     , "image": {
         "src": "steel.jpg"
-      , "author": "unknown"
+      , "author": "unknown author"
       , "source": "https://pxhere.com/en/photo/631190"
       , "licence": "CC0 1.0 Universal Public Domain Dedication"
       , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -167,14 +483,13 @@
       , "licenceURL": "https://www.pexels.com/photo-license/"
       }
     }
- 
 
 
   , { "text": "Marilyn Monroe"
     , "category": "Famous People"
-    , "dates": "1926 – 1962"
-    , "details": {
-      }
+      , "dates": "1926 – 1962"
+      , "details": [
+      ]
     , "image": {
         "src": "marilyn.jpg"
       , "author": "Frank Powolny"
@@ -186,9 +501,9 @@
     
   , { "text": "Agatha Christie"
     , "category": "Famous People"
-    , "dates": "1890 – 1976"
-    , "details": {
-      }
+      , "dates": "1890 – 1976"
+      , "details": [
+      ]
     , "image": {
         "src": "agatha.jpg"
       , "author": ""
@@ -200,9 +515,9 @@
     
   , { "text": "Coco Chanel"
     , "category": "Famous People"
-    , "dates": "1883 – 1971"
-    , "details": {
-      }
+      , "dates": "1883 – 1971"
+      , "details": [
+      ]
     , "image": {
         "src": "coco.jpg"
       , "author": "Time / Getty"
@@ -214,9 +529,9 @@
     
   , { "text": "Marie Curie"
     , "category": "Famous People"
-    , "dates": "1867 – 1934"
-    , "details": {
-      }
+      , "dates": "1867 – 1934"
+      , "details": [
+      ]
     , "image": {
         "src": "marie.jpg"
       , "author": "Henri Manuel"
@@ -228,9 +543,9 @@
     
   , { "text": "Jane Austen"
     , "category": "Famous People"
-    , "dates": "1775 – 1817"
-    , "details": {
-      }
+      , "dates": "1775 – 1817"
+      , "details": [
+      ]
     , "image": {
         "src": "jane.jpg"
       , "author": "Cassandra Austen "
@@ -242,9 +557,9 @@
     
   , { "text": "Edith Piaf"
     , "category": "Famous People"
-    , "dates": "1915 – 1963"
-    , "details": {
-      }
+      , "dates": "1915 – 1963"
+      , "details": [
+      ]
     , "image": {
         "src": "edith.jpg"
       , "author": "Eric Koch"
@@ -256,12 +571,12 @@
     
   , { "text": "Cleopatra"
     , "category": "Famous People"
-    , "dates": "69 – 30 BCE"
-    , "details": {
-      }
+      , "dates": "69 – 30 BCE"
+      , "details": [
+      ]
     , "image": {
         "src": "cleopatra.jpg"
-      , "author": "unknown"
+      , "author": "unknown author"
       , "source": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
       , "licence": "Public Domain"
       , "licenceURL": ""
@@ -270,9 +585,9 @@
     
   , { "text": "Joan of Arc"
     , "category": "Famous People"
-    , "dates": "1412 – 1431"
-    , "details": {
-      }
+      , "dates": "1412 – 1431"
+      , "details": [
+      ]
     , "image": {
         "src": "XXX"
       , "author": "XXX"
@@ -284,9 +599,9 @@
     
   , { "text": "Mother Teresa"
     , "category": "Famous People"
-    , "dates": "1910 – 1997"
-    , "details": {
-      }
+      , "dates": "1910 – 1997"
+      , "details": [
+      ]
     , "image": {
         "src": "XXX"
       , "author": "XXX"
@@ -298,9 +613,9 @@
     
   , { "text": "Anne Frank"
     , "category": "Famous People"
-    , "dates": "1929 – 1945"
-    , "details": {
-      }
+      , "dates": "1929 – 1945"
+      , "details": [
+      ]
     , "image": {
         "src": "XXX"
       , "author": "XXX"
@@ -312,9 +627,9 @@
     
   , { "text": "Amelia Earhart"
     , "category": "Famous People"
-    , "dates": "1897 — 1937"
-    , "details": {
-      }
+      , "dates": "1897 — 1937"
+      , "details": [
+      ]
     , "image": {
         "src": "XXX"
       , "author": "XXX"
@@ -326,9 +641,9 @@
     
   , { "text": "Mary Shelley"
     , "category": "Famous People"
-    , "dates": "1797 – 1851"
-    , "details": {
-      }
+      , "dates": "1797 – 1851"
+      , "details": [
+      ]
     , "image": {
         "src": "XXX"
       , "author": "XXX"
@@ -340,9 +655,9 @@
     
   , { "text": "Maria Montessori"
     , "category": "Famous People"
-    , "dates": "1870 – 1952"
-    , "details": {
-      }
+      , "dates": "1870 – 1952"
+      , "details": [
+      ]
     , "image": {
         "src": "XXX"
       , "author": "XXX"
@@ -354,12 +669,12 @@
     
   , { "text": "Catherine the Great"
     , "category": "Famous People"
-    , "dates": "1729 – 1796"
-    , "details": {
-      }
+      , "dates": "1729 – 1796"
+      , "details": [
+      ]
     , "image": {
         "src": "catherine.jpg"
-      , "author": "unknown"
+      , "author": "unknown author"
       , "source": "https://commons.wikimedia.org/wiki/File:Catherine_II_by_J.B.Lampi_(1780s,_Kunsthistorisches_Museum).jpg"
       , "licence": "Public Domain"
       , "licenceURL": ""
@@ -368,9 +683,9 @@
     
   , { "text": "Rosalind Franklin"
     , "category": "Famous People"
-    , "dates": "1920 – 1958"
-    , "details": {
-      }
+      , "dates": "1920 – 1958"
+      , "details": [
+      ]
     , "image": {
         "src": "XXX"
       , "author": "XXX"

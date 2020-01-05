@@ -4,15 +4,15 @@
 **/
 
 import React, { Component } from 'react';
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
-const StyledImageDiv = styled.div`
-  position: relative;
-  overflow: hidden;
-  box-sizing: border-box;
-  & img {
-    width: 100%;
-  }
+const StyledImage = styled.img`
+  width: 100%;
+  opacity: ${props => props.dim
+                    ? 0.333
+                    : 1
+            }
+
 `
 
 export default class Image extends Component {
@@ -23,19 +23,18 @@ export default class Image extends Component {
 
 
   render() {
-    console.log(this.props)
     const image = this.props.image
+
     if (!image || image.src === "XXX") {
       return ""
     }
 
     return (
-      <StyledImageDiv>
-        <img
-          src={this.folder + image.src}
-          alt={this.props.text}
-        />
-      </StyledImageDiv>
+      <StyledImage
+        src={this.folder + image.src}
+        alt={this.props.text}
+        dim={this.props.dim}
+      />
     )
   }
 }

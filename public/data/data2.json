@@ -116,7 +116,7 @@
   , { "text": "dog"
     , "category": "Domesticated Animals"
     , "details": {
-        "place": "unknown"
+        "place": "unknown author"
       , "date": "14~30 000 BCE"
       }
     }
@@ -220,7 +220,7 @@
     }
 
 
-  , { "text": "Cooking pots"
+  , { "text": "cooking pots"
     , "category": "Household items"
     , "details": {
         "copper": "Mesopotamia, 4500 BCE"
@@ -232,7 +232,7 @@
     , "category": "Household items"
     , "details": {
         "place": "Central Europe"
-      , "inventor": "unknown"
+      , "inventor": "unknown author"
       , "date": "29 000 BCE"
       }
     }
@@ -248,7 +248,7 @@
     , "category": "Household items"
     , "details": {
         "place": "China"
-      , "inventor": "unknown"
+      , "inventor": "unknown author"
       , "date": "100 BCE"
       }
     }
@@ -456,7 +456,7 @@
     , "category": "Commodities"
     , "image": {
         "src": "oil.jpg"
-      , "author": "unknown"
+      , "author": "unknown author"
       , "source": "https://www.pxfuel.com/en/free-photo-qkuyt"
       , "licence": "Creative Commons Zero"
       , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
@@ -466,7 +466,7 @@
     , "category": "Commodities"
     , "image": {
         "src": "steel.jpg"
-      , "author": "unknown"
+      , "author": "unknown author"
       , "source": "https://pxhere.com/en/photo/631190"
       , "licence": "CC0 1.0 Universal Public Domain Dedication"
       , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -585,7 +585,7 @@
       }
     , "image": {
         "src": "cleopatra.jpg"
-      , "author": "unknown"
+      , "author": "unknown author"
       , "source": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
       , "licence": "Public Domain"
       , "licenceURL": ""
@@ -683,7 +683,7 @@
       }
     , "image": {
         "src": "catherine.jpg"
-      , "author": "unknown"
+      , "author": "unknown author"
       , "source": "https://commons.wikimedia.org/wiki/File:Catherine_II_by_J.B.Lampi_(1780s,_Kunsthistorisches_Museum).jpg"
       , "licence": "Public Domain"
       , "licenceURL": ""

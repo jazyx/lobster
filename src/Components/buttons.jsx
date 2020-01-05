@@ -4,7 +4,7 @@
 **/
 
 import React, { Component } from 'react';
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 
 const StyledButtonDiv = styled.div`
@@ -26,11 +26,6 @@ const StyledButtonDiv = styled.div`
 `
 
 export default class Buttons extends Component {
-  constructor(props) {
-    super(props)
-  }
-
-
   render() {
     return (
       <StyledButtonDiv
