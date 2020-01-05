@@ -7,25 +7,176 @@
   }
 
 , "items":  [
-    { "text": "gold"
+    { "text": "Tokyo"
+    , "details": {
+        "country": "Japan"
+      , "population": "31 million"
+      }
+    }
+
+    
+
+
+  , { "text": "wheat"
     , "category": "Commodities"
     , "image": {
-        "url": "gold.jpg"
+        "src": "wheat.jpg"
+      , "author": "Anrita1705"
+      , "source": "https://www.needpix.com/photo/1908768/wheat-wheat-field-field-nature-spike-field-walk-food-cereals-grain"
+      , "licence": "CC0 1.0 Universal Public Domain Dedication"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    }
+  , { "text": "coffee"
+    , "category": "Commodities"
+    , "image": {
+        "src": "coffee.jpg"
+      , "author": "MarkSweep"
+      , "source": "https://en.wikipedia.org/wiki/File:Roasted_coffee_beans.jpg"
+      , "licence": "Public Domain"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    }
+  , { "text": "sugar"
+    , "category": "Commodities"
+    , "image": {
+        "src": "sugar.jpg"
+      , "author": "david pacey"
+      , "source": "https://flickr.com/photos/63723146@N08/7164573186"
+      , "licence": "Creative Commons Attribution 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    }
+  , { "text": "milk"
+    , "category": "Commodities"
+    , "image": {
+        "src": "milk.jpg"
+      , "author": "Martin Vorel"
+      , "source": "https://libreshot.com/milk-is-poured-into-a-glass/"
+      , "licence": "Public Domain"
+      , "licenceURL": "https://creativecommons.org/licenses/publicdomain/"
+      }
+    }
+  , { "text": "rice"
+    , "category": "Commodities"
+    , "image": {
+        "src": "rice.jpg"
+      , "author": "Takeaway"
+      , "source": "https://commons.wikimedia.org/wiki/File:2014_uncooked_Thai_jasmine_rice.jpg"
+      , "licence": "Creative Commons Attribution-Share Alike 4.0 International"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  , { "text": "cocoa"
+    , "category": "Commodities"
+    , "image": {
+        "src": "cocoa.jpg"
+      , "author": "ulleo"
+      , "source": "https://pixnio.com/food-and-drink/desserts-cakes/cocoa-chocolate-black-coffee-food-sweet-diet-brown"
+      , "licence": "Public Domain"
+      , "licenceURL": "https://creativecommons.org/licenses/publicdomain/"
+      }
+    }
+  , { "text": "meat"
+    , "category": "Commodities"
+    , "image": {
+        "src": "meat.jpg"
+      , "author": "Winfried Mosler"
+      , "source": "https://www.flickr.com/photos/winnstern/2050917990"
+      , "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0/"
+      }
+    }
+  , { "text": "wool"
+    , "category": "Commodities"
+    , "image": {
+        "src": "wool.jpg"
+      , "author": "THaymann"
+      , "source": "https://www.needpix.com/photo/1188134/wool-wollkneul-color"
+      , "licence": "CC0 1.0 Universal Public Domain Dedication"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    }
+  , { "text": "cotton"
+    , "category": "Commodities"
+    , "image": {
+        "src": "cotton.jpg"
+      , "author": "Kimberly Vardeman"
+      , "source": "https://commons.wikimedia.org/wiki/File:Cotton_field_kv17.jpg"
+      , "licence": "Creative Commons Attribution 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by/2.0/deed.en"
+      }
+    }
+  , { "text": "wood"
+    , "category": "Commodities"
+    , "image": {
+        "src": "wood.jpg"
+      , "author": "Syahmir"
+      , "source": "https://www.flickr.com/photos/syahmir/6875218888"
+      , "licence": "Creative Commons Attribution 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    }
+  , { "text": "rubber"
+    , "category": "Commodities"
+    , "image": {
+        "src": "rubber.jpg"
+      , "author": "PerH"
+      , "source": "https://www.needpix.com/photo/download/533015/tires-wheel-rubber-free-pictures-free-photos-free-images-royalty-free-free-illustrations"
+       , "licence": "Creative Commons Attribution-Share Alike 4.0 International"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+     }
+    }
+  , { "text": "oil"
+    , "category": "Commodities"
+    , "image": {
+        "src": "oil.jpg"
+      , "author": "unknown"
+      , "source": "https://www.pxfuel.com/en/free-photo-qkuyt"
+      , "licence": "Creative Commons Zero"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
+  , { "text": "steel"
+    , "category": "Commodities"
+    , "image": {
+        "src": "steel.jpg"
+      , "author": "unknown"
+      , "source": "https://pxhere.com/en/photo/631190"
+      , "licence": "CC0 1.0 Universal Public Domain Dedication"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    }
+  , { "text": "aluminium"
+    , "category": "Commodities"
+    , "image": {
+        "src": "aluminium.jpg"
+      , "author": "Auckland Museum"
+      , "source": "https://commons.wikimedia.org/wiki/File:Container,_aluminium_(AM_2014.56.30-2).jpg"
+      , "licence": "Creative Commons Attribution 4.0 International"
+      , "licenceURL": "https://creativecommons.org/licenses/by/4.0/deed.en"
+      }
+    }
+  , { "text": "gold"
+    , "category": "Commodities"
+    , "image": {
+        "src": "gold.jpg"
       , "author": "Michael Steinberg"
       , "source": "https://www.pexels.com/photo/business-global-intergold-gold-bars-gold-is-money-369270/"
       , "licence": "Free use"
       , "licenceURL": "https://www.pexels.com/photo-license/"
       }
     }
+ 
 
 
   , { "text": "Marilyn Monroe"
     , "category": "Famous People"
+    , "dates": "1926 – 1962"
     , "details": {
-        "dates": "1926 – 1962"
       }
     , "image": {
-        "url": "marilyn.jpg"
+        "src": "marilyn.jpg"
       , "author": "Frank Powolny"
       , "source": "https://commons.wikimedia.org/wiki/File:Monroe_1953_publicity.jpg"
       , "licence": "Public Domain"
@@ -35,11 +186,11 @@
     
   , { "text": "Agatha Christie"
     , "category": "Famous People"
+    , "dates": "1890 – 1976"
     , "details": {
-        "dates": "1890 – 1976"
       }
     , "image": {
-        "url": "agatha.jpg"
+        "src": "agatha.jpg"
       , "author": ""
       , "source": "https://farmweek.com/wp-content/uploads/2018/12/2.2579832.jpg"
       , "licence": ""
@@ -49,11 +200,11 @@
     
   , { "text": "Coco Chanel"
     , "category": "Famous People"
+    , "dates": "1883 – 1971"
     , "details": {
-        "dates": "1883 – 1971"
       }
     , "image": {
-        "url": "coco.jpg"
+        "src": "coco.jpg"
       , "author": "Time / Getty"
       , "source": "https://en.wikipedia.org/wiki/File:Coco_Chanel,_1920.jpg"
       , "licence": "Public Domain"
@@ -63,11 +214,11 @@
     
   , { "text": "Marie Curie"
     , "category": "Famous People"
+    , "dates": "1867 – 1934"
     , "details": {
-        "dates": "1867 – 1934"
       }
     , "image": {
-        "url": "marie.jpg"
+        "src": "marie.jpg"
       , "author": "Henri Manuel"
       , "source": "https://commons.wikimedia.org/wiki/File:Marie_Curie_-_Henri_Manuel.jpg"
       , "licence": "Public Domain"
@@ -77,11 +228,11 @@
     
   , { "text": "Jane Austen"
     , "category": "Famous People"
+    , "dates": "1775 – 1817"
     , "details": {
-        "dates": "1775 – 1817"
       }
     , "image": {
-        "url": "jane.jpg"
+        "src": "jane.jpg"
       , "author": "Cassandra Austen "
       , "source": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg"
       , "licence": "Public Domain"
@@ -91,11 +242,11 @@
     
   , { "text": "Edith Piaf"
     , "category": "Famous People"
+    , "dates": "1915 – 1963"
     , "details": {
-        "dates": "1915 – 1963"
       }
     , "image": {
-        "url": "edith.jpg"
+        "src": "edith.jpg"
       , "author": "Eric Koch"
       , "source": "https://commons.wikimedia.org/wiki/File:Édith_Piaf_914-6440.jpg"
       , "licence": "CC0 1.0 Universal Public Domain Dedication"
@@ -105,11 +256,11 @@
     
   , { "text": "Cleopatra"
     , "category": "Famous People"
+    , "dates": "69 – 30 BCE"
     , "details": {
-        "dates": "69 – 30 BCE"
       }
     , "image": {
-        "url": "cleopatra.jpg"
+        "src": "cleopatra.jpg"
       , "author": "unknown"
       , "source": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
       , "licence": "Public Domain"
@@ -119,11 +270,11 @@
     
   , { "text": "Joan of Arc"
     , "category": "Famous People"
+    , "dates": "1412 – 1431"
     , "details": {
-        "dates": "1412 – 1431"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -133,11 +284,11 @@
     
   , { "text": "Mother Teresa"
     , "category": "Famous People"
+    , "dates": "1910 – 1997"
     , "details": {
-        "dates": "1910 – 1997"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -147,11 +298,11 @@
     
   , { "text": "Anne Frank"
     , "category": "Famous People"
+    , "dates": "1929 – 1945"
     , "details": {
-        "dates": "1929 – 1945"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -161,11 +312,11 @@
     
   , { "text": "Amelia Earhart"
     , "category": "Famous People"
+    , "dates": "1897 — 1937"
     , "details": {
-        "dates": "1897 — 1937"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -175,11 +326,11 @@
     
   , { "text": "Mary Shelley"
     , "category": "Famous People"
+    , "dates": "1797 – 1851"
     , "details": {
-        "dates": "1797 – 1851"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -189,11 +340,11 @@
     
   , { "text": "Maria Montessori"
     , "category": "Famous People"
+    , "dates": "1870 – 1952"
     , "details": {
-        "dates": "1870 – 1952"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -203,11 +354,11 @@
     
   , { "text": "Catherine the Great"
     , "category": "Famous People"
+    , "dates": "1729 – 1796"
     , "details": {
-        "dates": "1729 – 1796"
       }
     , "image": {
-        "url": "catherine.jpg"
+        "src": "catherine.jpg"
       , "author": "unknown"
       , "source": "https://commons.wikimedia.org/wiki/File:Catherine_II_by_J.B.Lampi_(1780s,_Kunsthistorisches_Museum).jpg"
       , "licence": "Public Domain"
@@ -217,11 +368,11 @@
     
   , { "text": "Rosalind Franklin"
     , "category": "Famous People"
+    , "dates": "1920 – 1958"
     , "details": {
-        "dates": "1920 – 1958"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"

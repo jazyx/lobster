@@ -102,7 +102,7 @@ export default class Item extends Component {
 
   render() {
     const text = this.props.item.text
-    const dates = (this.props.item.details || {}).dates
+    const dates = this.props.item.dates
     const fontSize = this.getOptimumFontSize(text, dates)
 
     return (

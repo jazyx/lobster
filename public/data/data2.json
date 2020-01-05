@@ -345,7 +345,7 @@
   , { "text": "wheat"
     , "category": "Commodities"
     , "image": {
-        "url": "wheat.jpg"
+        "src": "wheat.jpg"
       , "author": "Anrita1705"
       , "source": "https://www.needpix.com/photo/1908768/wheat-wheat-field-field-nature-spike-field-walk-food-cereals-grain"
       , "licence": "CC0 1.0 Universal Public Domain Dedication"
@@ -355,7 +355,7 @@
   , { "text": "coffee"
     , "category": "Commodities"
     , "image": {
-        "url": "coffee.jpg"
+        "src": "coffee.jpg"
       , "author": "MarkSweep"
       , "source": "https://en.wikipedia.org/wiki/File:Roasted_coffee_beans.jpg"
       , "licence": "Public Domain"
@@ -365,7 +365,7 @@
   , { "text": "sugar"
     , "category": "Commodities"
     , "image": {
-        "url": "sugar.jpg"
+        "src": "sugar.jpg"
       , "author": "david pacey"
       , "source": "https://flickr.com/photos/63723146@N08/7164573186"
       , "licence": "Creative Commons Attribution 2.0 Generic"
@@ -375,7 +375,7 @@
   , { "text": "milk"
     , "category": "Commodities"
     , "image": {
-        "url": "milk.jpg"
+        "src": "milk.jpg"
       , "author": "Martin Vorel"
       , "source": "https://libreshot.com/milk-is-poured-into-a-glass/"
       , "licence": "Public Domain"
@@ -385,7 +385,7 @@
   , { "text": "rice"
     , "category": "Commodities"
     , "image": {
-        "url": "rice.jpg"
+        "src": "rice.jpg"
       , "author": "Takeaway"
       , "source": "https://commons.wikimedia.org/wiki/File:2014_uncooked_Thai_jasmine_rice.jpg"
       , "licence": "Creative Commons Attribution-Share Alike 4.0 International"
@@ -395,7 +395,7 @@
   , { "text": "cocoa"
     , "category": "Commodities"
     , "image": {
-        "url": "cocoa.jpg"
+        "src": "cocoa.jpg"
       , "author": "ulleo"
       , "source": "https://pixnio.com/food-and-drink/desserts-cakes/cocoa-chocolate-black-coffee-food-sweet-diet-brown"
       , "licence": "Public Domain"
@@ -405,7 +405,7 @@
   , { "text": "meat"
     , "category": "Commodities"
     , "image": {
-        "url": "meat.jpg"
+        "src": "meat.jpg"
       , "author": "Winfried Mosler"
       , "source": "https://www.flickr.com/photos/winnstern/2050917990"
       , "licence": "Creative Commons Attribution-ShareAlike 2.0 Generic"
@@ -415,7 +415,7 @@
   , { "text": "wool"
     , "category": "Commodities"
     , "image": {
-        "url": "wool.jpg"
+        "src": "wool.jpg"
       , "author": "THaymann"
       , "source": "https://www.needpix.com/photo/1188134/wool-wollkneul-color"
       , "licence": "CC0 1.0 Universal Public Domain Dedication"
@@ -425,7 +425,7 @@
   , { "text": "cotton"
     , "category": "Commodities"
     , "image": {
-        "url": "cotton.jpg"
+        "src": "cotton.jpg"
       , "author": "Kimberly Vardeman"
       , "source": "https://commons.wikimedia.org/wiki/File:Cotton_field_kv17.jpg"
       , "licence": "Creative Commons Attribution 2.0 Generic"
@@ -435,7 +435,7 @@
   , { "text": "wood"
     , "category": "Commodities"
     , "image": {
-        "url": "wood.jpg"
+        "src": "wood.jpg"
       , "author": "Syahmir"
       , "source": "https://www.flickr.com/photos/syahmir/6875218888"
       , "licence": "Creative Commons Attribution 2.0 Generic"
@@ -445,7 +445,7 @@
   , { "text": "rubber"
     , "category": "Commodities"
     , "image": {
-        "url": "rubber.jpg"
+        "src": "rubber.jpg"
       , "author": "PerH"
       , "source": "https://www.needpix.com/photo/download/533015/tires-wheel-rubber-free-pictures-free-photos-free-images-royalty-free-free-illustrations"
        , "licence": "Creative Commons Attribution-Share Alike 4.0 International"
@@ -455,7 +455,7 @@
   , { "text": "oil"
     , "category": "Commodities"
     , "image": {
-        "url": "oil.jpg"
+        "src": "oil.jpg"
       , "author": "unknown"
       , "source": "https://www.pxfuel.com/en/free-photo-qkuyt"
       , "licence": "Creative Commons Zero"
@@ -465,7 +465,7 @@
   , { "text": "steel"
     , "category": "Commodities"
     , "image": {
-        "url": "steel.jpg"
+        "src": "steel.jpg"
       , "author": "unknown"
       , "source": "https://pxhere.com/en/photo/631190"
       , "licence": "CC0 1.0 Universal Public Domain Dedication"
@@ -475,7 +475,7 @@
   , { "text": "aluminium"
     , "category": "Commodities"
     , "image": {
-        "url": "aluminium.jpg"
+        "src": "aluminium.jpg"
       , "author": "Auckland Museum"
       , "source": "https://commons.wikimedia.org/wiki/File:Container,_aluminium_(AM_2014.56.30-2).jpg"
       , "licence": "Creative Commons Attribution 4.0 International"
@@ -485,7 +485,7 @@
   , { "text": "gold"
     , "category": "Commodities"
     , "image": {
-        "url": "gold.jpg"
+        "src": "gold.jpg"
       , "author": "Michael Steinberg"
       , "source": "https://www.pexels.com/photo/business-global-intergold-gold-bars-gold-is-money-369270/"
       , "licence": "Free use"
@@ -500,7 +500,7 @@
         "dates": "1926 – 1962"
       }
     , "image": {
-        "url": "marilyn.jpg"
+        "src": "marilyn.jpg"
       , "author": "Frank Powolny"
       , "source": "https://commons.wikimedia.org/wiki/File:Monroe_1953_publicity.jpg"
       , "licence": "Public Domain"
@@ -514,7 +514,7 @@
         "dates": "1890 – 1976"
       }
     , "image": {
-        "url": "agatha.jpg"
+        "src": "agatha.jpg"
       , "author": ""
       , "source": "https://farmweek.com/wp-content/uploads/2018/12/2.2579832.jpg"
       , "licence": ""
@@ -528,7 +528,7 @@
         "dates": "1883 – 1971"
       }
     , "image": {
-        "url": "coco.jpg"
+        "src": "coco.jpg"
       , "author": "Time / Getty"
       , "source": "https://en.wikipedia.org/wiki/File:Coco_Chanel,_1920.jpg"
       , "licence": "Public Domain"
@@ -542,7 +542,7 @@
         "dates": "1867 – 1934"
       }
     , "image": {
-        "url": "marie.jpg"
+        "src": "marie.jpg"
       , "author": "Henri Manuel"
       , "source": "https://commons.wikimedia.org/wiki/File:Marie_Curie_-_Henri_Manuel.jpg"
       , "licence": "Public Domain"
@@ -556,7 +556,7 @@
         "dates": "1775 – 1817"
       }
     , "image": {
-        "url": "jane.jpg"
+        "src": "jane.jpg"
       , "author": "Cassandra Austen "
       , "source": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg"
       , "licence": "Public Domain"
@@ -570,7 +570,7 @@
         "dates": "1915 – 1963"
       }
     , "image": {
-        "url": "edith.jpg"
+        "src": "edith.jpg"
       , "author": "Eric Koch"
       , "source": "https://commons.wikimedia.org/wiki/File:Édith_Piaf_914-6440.jpg"
       , "licence": "CC0 1.0 Universal Public Domain Dedication"
@@ -584,7 +584,7 @@
         "dates": "69 – 30 BCE"
       }
     , "image": {
-        "url": "cleopatra.jpg"
+        "src": "cleopatra.jpg"
       , "author": "unknown"
       , "source": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
       , "licence": "Public Domain"
@@ -598,7 +598,7 @@
         "dates": "1412 – 1431"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -612,7 +612,7 @@
         "dates": "1910 – 1997"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -626,7 +626,7 @@
         "dates": "1929 – 1945"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -640,7 +640,7 @@
         "dates": "1897 — 1937"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -654,7 +654,7 @@
         "dates": "1797 – 1851"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -668,7 +668,7 @@
         "dates": "1870 – 1952"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"
@@ -682,7 +682,7 @@
         "dates": "1729 – 1796"
       }
     , "image": {
-        "url": "catherine.jpg"
+        "src": "catherine.jpg"
       , "author": "unknown"
       , "source": "https://commons.wikimedia.org/wiki/File:Catherine_II_by_J.B.Lampi_(1780s,_Kunsthistorisches_Museum).jpg"
       , "licence": "Public Domain"
@@ -696,7 +696,7 @@
         "dates": "1920 – 1958"
       }
     , "image": {
-        "url": "XXX"
+        "src": "XXX"
       , "author": "XXX"
       , "source": "XXX"
       , "licence": "XXX"

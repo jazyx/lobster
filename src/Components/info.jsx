@@ -5,12 +5,12 @@
 
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components'
+import Image from './image'
 
 
 const StyledInfoDiv = styled.div`
   width: ${props => props.size}px;
   height: ${props => props.size}px;
-  background-color: #999;
 
   @media (min-aspect-ratio: 1/1) {
     height: 0
@@ -52,7 +52,11 @@ export default class Info extends Component {
     return (
       <StyledInfoDiv
         size={this.state.size}
-      />
+      >
+        <Image
+          image={this.props.item.image}
+        />
+      </StyledInfoDiv>
     )
   }
 }
