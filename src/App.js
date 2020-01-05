@@ -29,7 +29,7 @@ class App extends Component {
 
   initialize() {
     this.last = this.items.length - 1
-    this.shuffle(this.items)
+    // this.shuffle(this.items)
     this.go(0)
   }
 

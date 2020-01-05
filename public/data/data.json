@@ -7,7 +7,51 @@
   }
 
 , "items":  [
-    { "text": "Tokyo"
+    { "text": "Agatha Christie"
+    , "category": "Famous People"
+      , "dates": "1890 – 1976"
+      , "details": [
+        "She was born in Torquay, Devon"
+      , "Her parents educated her at home until she was 12"
+      , "Her first six novels were rejected by publishers"
+      , "Her second novel, 'The Secret Adversary', earned her £50"
+      , "Her second husband, Sir Max Mallowan, was a distinguished archaeologist"
+      , "Her books have been translated into 103 languages"
+      , "Her most successful novel is 'And Then There Were None'"
+      , "Her novels have sold roughly 2 billion copies"
+      ]
+    , "image": {
+        "src": "agatha.jpg"
+      , "author": ""
+      , "source": "https://farmweek.com/wp-content/uploads/2018/12/2.2579832.jpg"
+      , "licence": ""
+      , "licenceURL": ""
+      }
+    }
+    
+  , { "text": "Coco Chanel"
+    , "category": "Famous People"
+      , "dates": "1883 – 1971"
+      , "details": [
+        "Her mother was a laundrywoman and her father an itinerant street vendor"
+      , "Her first names are Gabrielle Bonheur"
+      , "At 12 she was sent to an orphanage in Aubazine, where she learned to sew"
+      , "She gained her nickname at first job: singing in a café cabaret"
+      , "At the age of 23, she went to live with Étienne Balsan in his château Royallieu"
+      , "Her clothes liberated women from corsets, giving them a sporty, casual chic"
+      , "The number 5 has brought her great good fortune"
+      , "Her monogram is the interlocking letters CC"
+      ]
+    , "image": {
+        "src": "coco.jpg"
+      , "author": "Time / Getty"
+      , "source": "https://en.wikipedia.org/wiki/File:Coco_Chanel,_1920.jpg"
+      , "licence": "Public Domain"
+      , "licenceURL": ""
+      }
+    }
+    
+  , { "text": "Tokyo"
     , "details": [
         "Country: Japan"
       , "Population: 31 million"
@@ -494,50 +538,6 @@
         "src": "marilyn.jpg"
       , "author": "Frank Powolny"
       , "source": "https://commons.wikimedia.org/wiki/File:Monroe_1953_publicity.jpg"
-      , "licence": "Public Domain"
-      , "licenceURL": ""
-      }
-    }
-    
-  , { "text": "Agatha Christie"
-    , "category": "Famous People"
-      , "dates": "1890 – 1976"
-      , "details": [
-        "She was born in Torquay, Devon"
-      , "Her parents educated her at home until she was 12"
-      , "Her first six novels were rejected by publishers"
-      , "Her second novel, 'The Secret Adversary', earned her £50"
-      , "Her second husband, Sir Max Mallowan, was a distinguished archaeologist"
-      , "Her books have been translated into 103 languages"
-      , "Her most successful novel is 'And Then There Were None'"
-      , "Her novels have sold roughly 2 billion copies"
-      ]
-    , "image": {
-        "src": "agatha.jpg"
-      , "author": ""
-      , "source": "https://farmweek.com/wp-content/uploads/2018/12/2.2579832.jpg"
-      , "licence": ""
-      , "licenceURL": ""
-      }
-    }
-    
-  , { "text": "Coco Chanel"
-    , "category": "Famous People"
-      , "dates": "1883 – 1971"
-      , "details": [
-        "Her mother was a laundrywoman and her father an itinerant street vendor"
-      , "Her first names are Gabrielle Bonheur"
-      , "At 12 she was sent to an orphanage in Aubazine, where she learned to sew"
-      , "She gained her nickname at first job: singing in a café cabaret"
-      , "At the age of 23, she went to live with Étienne Balsan in his château Royallieu"
-      , "Her clothes liberated women from corsets, giving them a sporty, casual chic"
-      , "The number 5 has brought her great good fortune"
-      , "Her monogram is the interlocking letters CC"
-      ]
-    , "image": {
-        "src": "coco.jpg"
-      , "author": "Time / Getty"
-      , "source": "https://en.wikipedia.org/wiki/File:Coco_Chanel,_1920.jpg"
       , "licence": "Public Domain"
       , "licenceURL": ""
       }
