@@ -266,15 +266,14 @@
         "Believed to be on the site of legendary city of Indraprastha"
       , "One of the world's most polluted cities"
       , "Home to 18 billionaires and 23 000 millionaires"
-      , "The hottest temperature recorded here was 48.4 °C (119 °F)"
+      , "The hottest temperature recorded here was 48.4 °C (119 °F)"
       , "Host of the 2010 Commonwealth Games and the 2011 Cricket World Cup"
       , "On Independence Day every year the Prime Minister delivers a speech from the Red Fort, which was built by the Mughal Emperor in the 1640s"
       , "The British moved the capital here from Calcutta in 1911"
       , "With a population 26 million it is India's most populated urban area"
       ]
     , "words": [
-        "books"
-      , "information technology"
+        "information technology"
       , "street food"
       , "pollution"
       , "empire"
@@ -761,12 +760,12 @@
  , { "text": "Rio de Janeiro "
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
-      }
+        "src": "rio.jpg"
+      , "author": ""
+      , "source": "https://pxhere.com/en/photo/1292396"
+     , "licence": "CC0 Public Domain"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+     }
     , "details": [
         "Country: Brazil"
       , "Population: 13 million"
@@ -778,11 +777,11 @@
   , { "text": "Los Angeles"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "la.jpg"
+      , "author": "salewskia"
+      , "source": "https://commons.wikimedia.org/wiki/File:Los_Angeles,_Winter_2016.jpg"
+      , "licence": "Creative Commons Attribution-Share Alike 4.0 International"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
       }
     , "details": [
         "Country: USA"
@@ -795,11 +794,11 @@
   , { "text": "Moscow"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
+        "src": "moscow.jpg"
       , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+      , "source": "http://www.all-free-photos.com/show/showphoto.php?idph=PI72610&lang=en"
+      , "licence": "Creative Commons Attribution-ShareAlike 2.5 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
       }
     , "details": [
         "Country: Russian Federation"
@@ -812,11 +811,11 @@
   , { "text": "Paris"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "paris.jpg"
+      , "author": "Pierre Blaché"
+      , "source": "https://www.pexels.com/photo/notre-dame-paris-river-1653482/"
+      , "licence": "Free to use"
+      , "licenceURL": "https://www.pexels.com/photo-license/"
       }
     , "details": [
         "Country: France"
@@ -829,11 +828,11 @@
   , { "text": "London"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "london.jpg"
+      , "author": "David Iliff"
+      , "source": "https://en.wikipedia.org/wiki/File:London_Thames_Sunset_panorama_-_Feb_2008.jpg"
+      , "licence": "Creative Commons Attribution 3.0 Unported"
+      , "licenceURL": "https://creativecommons.org/licenses/by/3.0/deed.en"
       }
     , "details": [
         "Country: United Kingdom"
