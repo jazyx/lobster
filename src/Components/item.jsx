@@ -1,6 +1,6 @@
 /** item.js **
  *
- *   
+ *
 **/
 
 import React, { Component } from 'react';
@@ -50,15 +50,23 @@ export default class Item extends Component {
   getMaxSizes() {
     const rect = document.body.getBoundingClientRect()
     const maxWidth = rect.width   * 0.96
-    // const maxHeight = rect.height * 0.8699 // fudge factor for Verdana
-    const fullHeight = ( rect.width > rect.height )
-                       ? rect.height
-                       : rect.height - (
-                           Math.min(rect.width, rect.height * 0.8)
-                         )
-    const maxHeight = fullHeight * 0.8699 // fudge factor for Verdana
+    const fullHeight = this.getFullHeight(rect)
+    const maxHeight = fullHeight * 0.8699
 
     return { maxWidth, maxHeight, fullHeight }
+  }
+
+
+  getFullHeight(rect) {
+    if (rect.width > rect.height) {
+      // Hide the info component, show only this item component
+      return rect.height
+
+    } else if (rect.height * 0.7 > rect.width){
+      return rect.height - rect.width * 1.1
+    } else {
+      return rect.height - (Math.min(rect.width, rect.height * 0.8))
+    }
   }
 
 
@@ -76,14 +84,14 @@ export default class Item extends Component {
 
     let width
       , step
-    let height = step = maxHeight 
+    let height = step = maxHeight
     let steps = 16
 
-    do {     
+    do {
       context.font = `${height}px sans-serif`
       width = context.measureText(text).width
 
-      steps -= 1    
+      steps -= 1
       step /= 2
 
       if (width > this.state.maxWidth) {
@@ -108,7 +116,6 @@ export default class Item extends Component {
     return (
       <StyledItem
         height={this.state.fullHeight}
-        id="item"
       >
         <StyledText
           style={{fontSize: fontSize}}

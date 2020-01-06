@@ -1,11 +1,10 @@
 /** info.js **
  *
- *   
+ *
 **/
 
 import React, { Component } from 'react';
 import styled from 'styled-components'
-import InfoButtons from './infoButtons'
 import Image from './image'
 
 
@@ -13,6 +12,7 @@ const StyledInfoDiv = styled.div`
   position: relative;
   width: ${props => props.size}px;
   height: ${props => props.size}px;
+  padding-bottom: ${props => props.padding}px;
 
   @media (min-aspect-ratio: 1/1) {
     height: 0
@@ -20,23 +20,26 @@ const StyledInfoDiv = styled.div`
   }
 `
 
-
-const StyledUList = styled.ul` 
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
+const StyledListWrapper = styled.div`
+  height: calc(100% - 10vmin);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 3.5vmin;
+  justify-content: space-around;
+
+`
+
+const StyledUList = styled.ul`
+  width: 100%;
+  z-index: 1;
+
+  font-size: 3.3vmin;
   list-style: none;
   margin: 0;
   padding: 0;
+  overflow-y: auto;
 
-  & li {  
-    margin: 0.25em 0;
+  & li {
+    margin: 0.33em 0;
   }
 
   & a {
@@ -49,13 +52,11 @@ export default class Info extends Component {
   constructor(props) {
     super(props)
 
-    this.infoClick     = this.infoClick.bind(this)
-    this.toggleCredits = this.toggleCredits.bind(this )
     this.adjustSize    = this.adjustSize.bind(this)
     window.addEventListener("resize", this.adjustSize, false)
 
-    const size = this.getSize()
-    this.state = { size }
+    const sizes = this.getSizes()
+    this.state = sizes
   }
 
 
@@ -65,58 +66,19 @@ export default class Info extends Component {
 
 
   adjustSize() {
-    const size = this.getSize()
-    this.setState({ size })
+    const sizes = this.getSizes()
+    this.setState( sizes )
   }
 
 
-  getSize() {
+  getSizes() {
     const rect = document.body.getBoundingClientRect()
     const size = Math.min(rect.width, rect.height * 0.8)
-    return size
-  }
 
-
-  infoClick(event) {
-    const infoType = event.target.id
-    // may be undefined when a button is hidden
-
-    if (this["toggle"+infoType]) {
-      this["toggle"+infoType]()
-    }
-  }
-
-
-  toggleInfo() {
-    const info = !this.state.info
-
-    this.setState({ info, dim: info })
-  }
-
-
-  toggleCredits(event) {
-    // Prevent this method from triggering twice if the user clickso
-    // on the Credits button to hide the credits
-    if (this.creditsTimeout) {
-      return
-    }
-    const preventSecondEvent = () => {
-      clearTimeout(this.creditsTimeout)
-      this.creditsTimeout = 0
-    }
-
-    // Treat an intentional click on the credits... or elsewhere
-    const credits = !this.state.credits
-    this.setState({ credits, dim: credits })
-
-    const body = document.body
-    if (event) {
-      body.removeEventListener("mousedown", this.toggleCredits, false)
-      this.creditsTimeout = setTimeout(preventSecondEvent, 100)
-
-    } else {
-      body.addEventListener("mousedown", this.toggleCredits, false)
-    }
+    // HACK: padding would be better treated as 10vmin, but Android
+    // doesn't seem to like that
+    const padding = rect.width * 0.1
+    return { size, padding }
   }
 
 
@@ -167,7 +129,7 @@ export default class Info extends Component {
     // , "licenceURL": ""
     // }
 
-    if (!details) {
+    if (!details || details[0] === "ZZZ") {
       return ""
     }
 
@@ -181,62 +143,86 @@ export default class Info extends Component {
   }
 
 
-  getInfo() {
-    let info
+  getWords() {
+    const words = this.props.item.words
 
-    if (this.state.credits) {
-      info = this.getCredits()
-
-    } else if (this.state.info) {
-      info = this.getDetails()
+    if (!words || !words.length) {
+      return ""
     }
 
+    const info = words.map((item, index) => (
+      <li key={index}>
+        {item}
+      </li>
+    ))
+
+    return info
+  }
+
+
+  getInfo(infoType) {
+    switch (infoType) {
+      case "credits":
+        return this.getCredits()
+
+       case "words":
+         return this.getWords()
+
+       case "info":
+         return this.getDetails()
+    }
+
+
+    return ""
+  }
+
+
+  getDetails() {
+    const details = this.props.item.details
+    // { "src": "marilyn.jpg"
+    // , "author": "Frank Powolny"
+    // , "source": "https://commons.wikimedia.org/xxx.jpg"
+    // , "licence": "Public Domain"
+    // , "licenceURL": ""
+    // }
+
+    if (!details || details[0] === "ZZZ") {
+      return ""
+    }
+
+    const info = details.map((item, index) => (
+      <li key={index}>
+        {item}
+      </li>
+    ))
+
+    return info
+  }
+
+
+  render() {
+    let info = this.getInfo(this.props.info)
+
     if (info) {
-      return (
+      info = (
         <StyledUList>
           {info}
         </StyledUList>
       )
     }
 
-    return ""
-  }
-
-
-  getHide() {
-    if (!this.props.item.image) {
-      return "credits"
-    } else if (!this.props.item.details) {
-      return "info"
-    }
-
-    const hide = this.state.credits
-               ? "info"
-               : this.state.info
-                 ? "credits"
-                 : ""
-
-    return hide
-  }
-
-
-  render() {
-    const info = this.getInfo()
-    const hide = this.getHide()
-
     return (
       <StyledInfoDiv
         size={this.state.size}
+        padding={this.state.padding}
       >
-        <InfoButtons 
-          onClick={this.infoClick}
-          hide={hide}
-        />
         <Image
           image={this.props.item.image}
-          dim={this.state.dim}
+          dim={!!this.props.info}
         />
-        {info}
+        <StyledListWrapper>
+          {info}
+        </StyledListWrapper>
       </StyledInfoDiv>
     )
   }

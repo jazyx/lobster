@@ -4,8 +4,9 @@
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 180 180"
-  stroke="none"
-  fill="#654"
+  fill="#000"
+  stroke="#fff"
+  stroke-width="8"
 >
   <path
     d="M 20,20

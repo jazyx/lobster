@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Item from './Components/item'
 import Info from './Components/info'
-import Buttons from './Components/buttons'
+import Buttons from './Components/buttonBar'
 
 
 class App extends Component {
@@ -10,7 +10,10 @@ class App extends Component {
     super(props)
 
     this.go = this.go.bind(this)
-    this.state = { item: { text: "No items loaded " }, index: 0 }
+    this.show = this.show.bind(this)
+    this.toggleInfo = this.toggleInfo.bind(this)
+
+    this.state = { item: { text: "" }, index: 0 }
     this.last = 0
 
     fetch("data/data.json")
@@ -24,12 +27,15 @@ class App extends Component {
 
     , error  => console.log(error)
     )
+
+    window.addEventListener("resize", this.toggleInfo, false)
   }
 
 
   initialize() {
     this.last = this.items.length - 1
     // this.shuffle(this.items)
+    this.toggleInfo()
     this.go(0)
   }
 
@@ -68,6 +74,25 @@ class App extends Component {
   }
 
 
+  show(infoType) {
+    let info = this.state.info
+    if (info !== infoType) {
+      info = infoType
+    } else {
+      info = undefined
+    }
+
+    this.setState({ info })
+  }
+
+
+  toggleInfo() {
+    const rect = document.body.getBoundingClientRect()
+    const hideInfo = (rect.width > rect.height)
+    this.setState({ hideInfo })
+  }
+
+
   render() {
     return (
       <div className="App">
@@ -76,9 +101,13 @@ class App extends Component {
         />
         <Info
           item={this.state.item}
+          info={this.state.info}
         />
         <Buttons
-          onClick={this.go}
+          go={this.go}
+          show={this.show}
+          hide={this.state.hideInfo}
+          info={this.state.info}
           first={this.state.index === 0}
           last={this.state.index === this.last}
         />

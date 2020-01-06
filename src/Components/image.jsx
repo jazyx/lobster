@@ -1,13 +1,17 @@
 /** image.js **
  *
- *   
+ *
 **/
 
 import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const StyledImage = styled.img`
+  position: absolute;
+  left: 0;
+  z-index: 0;
   width: 100%;
+  pointer-events: none;
   opacity: ${props => props.dim
                     ? 0.333
                     : 1

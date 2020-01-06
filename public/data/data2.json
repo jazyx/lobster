@@ -238,7 +238,7 @@
     }
   , { "text": "vacuum cleaner"
     , "category": "Household items"
-    , "details": { 
+    , "details": {
         "place": "Ohio USA"
       , "inventor": ""
       , "date": "1907"
@@ -299,7 +299,7 @@
       , "inventor": "J. Ross Moore"
       , "date": "1938"
       }
-    } 
+    }
   , { "text": "coffee filter"
     , "category": "Household items"
     , "details": {
@@ -507,7 +507,7 @@
       , "licenceURL": ""
       }
     }
-    
+
   , { "text": "Agatha Christie"
     , "category": "Famous People"
     , "details": {
@@ -521,7 +521,7 @@
       , "licenceURL": ""
       }
     }
-    
+
   , { "text": "Coco Chanel"
     , "category": "Famous People"
     , "details": {
@@ -535,7 +535,7 @@
       , "licenceURL": ""
       }
     }
-    
+
   , { "text": "Marie Curie"
     , "category": "Famous People"
     , "details": {
@@ -549,7 +549,7 @@
       , "licenceURL": ""
       }
     }
-    
+
   , { "text": "Jane Austen"
     , "category": "Famous People"
     , "details": {
@@ -563,7 +563,7 @@
       , "licenceURL": ""
       }
     }
-    
+
   , { "text": "Edith Piaf"
     , "category": "Famous People"
     , "details": {
@@ -577,7 +577,7 @@
       , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
       }
     }
-    
+
   , { "text": "Cleopatra"
     , "category": "Famous People"
     , "details": {
@@ -591,7 +591,7 @@
       , "licenceURL": ""
       }
     }
-    
+
   , { "text": "Joan of Arc"
     , "category": "Famous People"
     , "details": {
@@ -605,7 +605,7 @@
       , "licenceURL": "XXX"
       }
     }
-    
+
   , { "text": "Mother Teresa"
     , "category": "Famous People"
     , "details": {
@@ -619,7 +619,7 @@
       , "licenceURL": "XXX"
       }
     }
-    
+
   , { "text": "Anne Frank"
     , "category": "Famous People"
     , "details": {
@@ -633,7 +633,7 @@
       , "licenceURL": "XXX"
       }
     }
-    
+
   , { "text": "Amelia Earhart"
     , "category": "Famous People"
     , "details": {
@@ -647,7 +647,7 @@
       , "licenceURL": "XXX"
       }
     }
-    
+
   , { "text": "Mary Shelley"
     , "category": "Famous People"
     , "details": {
@@ -661,7 +661,7 @@
       , "licenceURL": "XXX"
       }
     }
-    
+
   , { "text": "Maria Montessori"
     , "category": "Famous People"
     , "details": {
@@ -675,7 +675,7 @@
       , "licenceURL": "XXX"
       }
     }
-    
+
   , { "text": "Catherine the Great"
     , "category": "Famous People"
     , "details": {
@@ -689,7 +689,7 @@
       , "licenceURL": ""
       }
     }
-    
+
   , { "text": "Rosalind Franklin"
     , "category": "Famous People"
     , "details": {

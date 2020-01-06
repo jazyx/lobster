@@ -1,0 +1,64 @@
+strong
+building
+hard
+machine
+bar
+soft
+construction
+element
+temperature
+iron
+rail
+stress
+weak
+pure
+carbon
+tool
+weapon
+oxygen
+density
+mild
+copper
+crystal
+hammer
+nitrogen
+infrastructure
+scrap
+atom
+charcoal
+slab
+ore
+brittle
+silicon
+fracture
+alloy
+corrosion
+furnace
+phosphorus
+appliance
+slag
+cobalt
+tungsten
+malleable
+chromium
+titanium
+manganese
+nickel
+crucible
+ductile
+quench
+smelting
+boron
+vanadium
+sulfur
+ingot
+blast furnace
+cast iron
+electric arc furnace
+i-beam
+melting point
+niobium
+pig iron
+stainless steel
+tensile strength
+wrought iron
