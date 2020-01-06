@@ -625,11 +625,11 @@
   , { "text": "Shanghai"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "shanghai.jpg"
+      , "author": "Mstyslav Chernov"
+      , "source": "https://commons.wikimedia.org/wiki/File:Shanghai_skyline_at_night,_panoramic._China,_East_Asia-2.jpg"
+      , "licence": "Creative Commons Attribution-Share Alike 3.0 Unported"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
       }
     , "details": [
         "Country: China"
@@ -642,11 +642,11 @@
   , { "text": "Sao Paulo"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "saopaulo.jpg"
+      , "author": "cielstudiosp"
+      , "source": "https://en.wikipedia.org/wiki/File:Panorama_da_cidade_de_São_Paulo.jpg"
+      , "licence": "Creative Commons CC0 1.0 Universal Public Domain Dedication"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     , "details": [
         "Country: Brazil"
@@ -659,11 +659,11 @@
   , { "text": "Mexico City"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "mexicocity.jpg"
+      , "author": " Xavier Quetzalcoatl Contreras Castillo"
+      , "source": "https://commons.wikimedia.org/wiki/File:Bellas_Artes_01.jpg"
+      , "licence": "This file is licensed under the "
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
       }
     , "details": [
         "Country: Mexico"
@@ -676,11 +676,11 @@
   , { "text": "Beijing"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "beijing.jpg"
+      , "author": ""
+      , "source": "https://pxhere.com/en/photo/1364961"
+      , "licence": "CC0 Public Domain"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
       }
     , "details": [
         "Country: China"
@@ -693,11 +693,11 @@
   , { "text": "Cairo"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "cairo.jpg"
+      , "author": "Véronique Dauge"
+      , "source": "https://commons.wikimedia.org/wiki/File:Historic_Cairo-129003.jpg"
+      , "licence": "Creative Commons Attribution-ShareAlike 3.0 IGO"
+      , "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
       }
     , "details": [
         "Country: Egypt"
@@ -710,11 +710,11 @@
   , { "text": "New York"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "newyork.jpg"
+      , "author": "Ajay Suresh"
+      , "source": "https://commons.wikimedia.org/wiki/File:Central_Park_-_The_Pond_(48377220157).jpg"
+      , "licence": "Creative Commons Attribution 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by/2.0/deed.en"
       }
     , "details": [
         "Country: USA"
@@ -727,14 +727,14 @@
   , { "text": "Buenos Aires"
   , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "buenosaires.jpg"
+      , "author": "Deensel"
+      , "source": "https://commons.wikimedia.org/wiki/File:Plaza_San_Martín,_Buenos_Aires_(27146002798).jpg"
+      , "licence": "Creative Commons Attribution 2.0 Generic"
+      , "licenceURL": "https://creativecommons.org/licenses/by/2.0/deed.en"
       }
     , "details": [
-        "Country: Argentia"
+        "Country: Argentina"
       , "Population: 15 million"
       ]
     , "words": [
@@ -744,11 +744,11 @@
   , { "text": "Istanbul"
     , "category": "Big Cities"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "istanbul.jpg"
+      , "author": "Zumrasha"
+      , "source": "https://commons.wikimedia.org/wiki/File:Istiklal_busy_afternoon.JPG"
+      , "licence": "Public Domain"
+      , "licenceURL": ""
       }
     , "details": [
         "Country: Turkey"
