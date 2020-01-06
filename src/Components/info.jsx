@@ -26,17 +26,25 @@ const StyledListWrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
 
+  @media (max-aspect-ratio: 7/10) {
+    height: 100%;
+  }
+
 `
 
 const StyledUList = styled.ul`
   width: 100%;
   z-index: 1;
 
-  font-size: 3.3vmin;
+  font-size: 4vw;
   list-style: none;
   margin: 0;
   padding: 0;
   overflow-y: auto;
+
+  @media (min-aspect-ratio: 8/10) {
+    font-size: 3.2vh;
+  }
 
   & li {
     margin: 0.33em 0;
