@@ -3,6 +3,7 @@ import './App.css';
 import Item from './Components/item'
 import Info from './Components/info'
 import Buttons from './Components/buttonBar'
+import Menu from './Components/menu'
 
 
 class App extends Component {
@@ -11,7 +12,9 @@ class App extends Component {
 
     this.go = this.go.bind(this)
     this.show = this.show.bind(this)
+    this.showMenu = this.showMenu.bind(this)
     this.toggleInfo = this.toggleInfo.bind(this)
+    this.toggleImage = this.toggleImage.bind(this)
 
     this.state = { item: { text: "" }, index: 0 }
     this.last = 0
@@ -86,10 +89,24 @@ class App extends Component {
   }
 
 
+  showMenu(event) {
+    if (event === "close" || event.target.tagName === "DIV") {
+      const menu = !this.state.menu
+      this.setState({ menu })
+    }
+  }
+
+
   toggleInfo() {
     const rect = document.body.getBoundingClientRect()
     const hideInfo = (rect.width > rect.height)
     this.setState({ hideInfo })
+  }
+
+
+  toggleImage() {
+    const showImage = !this.state.showImage
+    this.setState({ showImage, menu: false })
   }
 
 
@@ -98,6 +115,7 @@ class App extends Component {
       <div className="App">
         <Item
           item={this.state.item}
+          showImage={this.state.showImage}
         />
         <Info
           item={this.state.item}
@@ -109,7 +127,14 @@ class App extends Component {
           hide={this.state.hideInfo}
           info={this.state.info}
           first={this.state.index === 0}
-          last={this.state.index === this.last}
+          last={this.state.index === this.last}       
+          showMenu={this.showMenu}
+        />
+        <Menu 
+          show={this.state.menu}
+          showImage={this.state.showImage}
+          toggleImage={this.toggleImage}
+          close={() => this.showMenu("close")}
         />
       </div>
     );

@@ -763,7 +763,7 @@
         "src": "rio.jpg"
       , "author": ""
       , "source": "https://pxhere.com/en/photo/1292396"
-     , "licence": "CC0 Public Domain"
+      , "licence": "CC0 Public Domain"
       , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
      }
     , "details": [
@@ -847,12 +847,12 @@
   , { "text": "dog"
     , "category": "Domesticated Animals"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
-      }
+        "src": "dog.jpg"
+      , "author": ""
+      , "source": "https://pxhere.com/en/photo/5339"
+      , "licence": "CC0 Public Domain"
+      , "licenceURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+       }
     , "details": [
         "First domesticated in unknown location"
       , "around 14~30 000 BCE"
@@ -864,11 +864,11 @@
   , { "text": "sheep"
     , "category": "Domesticated Animals"
     , "image": {
-        "src": "XXX"
-      , "author": "XXX"
-      , "source": "XXX"
-      , "licence": "XXX"
-      , "licenceURL": "XXX"
+        "src": "sheep.jpg"
+      , "author": "Nel Botha"
+      , "source": "https://pixabay.com/photos/sheep-ewe-lamb-wool-livestock-4445992/"
+      , "licence": "Pixabay License"
+      , "licenceURL": "https://pixabay.com/service/license/"
       }
     , "details": [
         "First domesticated in Western Asia"

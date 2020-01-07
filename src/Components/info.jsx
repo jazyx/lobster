@@ -14,10 +14,10 @@ const StyledInfoDiv = styled.div`
   height: ${props => props.size}px;
   padding-bottom: ${props => props.padding}px;
 
-  @media (min-aspect-ratio: 1/1) {
+/*  @media (min-aspect-ratio: 1/1) {
     height: 0
     display: none;
-  }
+  } */
 `
 
 const StyledListWrapper = styled.div`
@@ -178,33 +178,9 @@ export default class Info extends Component {
 
        case "info":
          return this.getDetails()
+       default:
+         return ""
     }
-
-
-    return ""
-  }
-
-
-  getDetails() {
-    const details = this.props.item.details
-    // { "src": "marilyn.jpg"
-    // , "author": "Frank Powolny"
-    // , "source": "https://commons.wikimedia.org/xxx.jpg"
-    // , "licence": "Public Domain"
-    // , "licenceURL": ""
-    // }
-
-    if (!details || details[0] === "ZZZ") {
-      return ""
-    }
-
-    const info = details.map((item, index) => (
-      <li key={index}>
-        {item}
-      </li>
-    ))
-
-    return info
   }
 
 

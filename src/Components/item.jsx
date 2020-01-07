@@ -33,17 +33,12 @@ export default class Item extends Component {
   constructor(props) {
     super(props)
 
-    this.adjustFontSize = this.adjustFontSize.bind(this)
+    this.adjustSizes = this.adjustSizes.bind(this)
 
     this.canvas = document.createElement('canvas')
-    this.state = this.getMaxSizes()
+    // this.sizes = this.getMaxSizes()
 
-    window.addEventListener("resize", this.adjustFontSize, false)
-  }
-
-
-  componentDidMount() {
-    this.adjustFontSize()
+    window.addEventListener("resize", this.adjustSizes, false)
   }
 
 
@@ -58,7 +53,7 @@ export default class Item extends Component {
 
 
   getFullHeight(rect) {
-    if (rect.width > rect.height) {
+    if (rect.width > rect.height && !this.props.showImage) {
       // Hide the info component, show only this item component
       return rect.height
 
@@ -70,17 +65,16 @@ export default class Item extends Component {
   }
 
 
-  adjustFontSize() {
-    const maxSizes = this.getMaxSizes()
-    this.setState( maxSizes )
+  adjustSizes() {
+    this.sizes = this.getMaxSizes()
   }
 
 
   getOptimumFontSize(text, dates) {
     const context = this.canvas.getContext('2d')
     const maxHeight = ( dates )
-                      ? this.state.fullHeight * 0.7
-                      : this.state.maxHeight
+                      ? this.sizes.fullHeight * 0.7
+                      : this.sizes.maxHeight
 
     let width
       , step
@@ -94,7 +88,7 @@ export default class Item extends Component {
       steps -= 1
       step /= 2
 
-      if (width > this.state.maxWidth) {
+      if (width > this.sizes.maxWidth) {
         height -= step
       } else if (height === maxHeight) {
         step = 0
@@ -102,20 +96,22 @@ export default class Item extends Component {
         height += step
       }
 
-    } while (steps && (step > 0.01 || width > this.state.maxWidth))
+    } while (steps && (step > 0.01 || width > this.sizes.maxWidth))
 
     return height + "px"
   }
 
 
   render() {
+    this.adjustSizes()
     const text = this.props.item.text
     const dates = this.props.item.dates
     const fontSize = this.getOptimumFontSize(text, dates)
+    const height = this.sizes.fullHeight
 
     return (
       <StyledItem
-        height={this.state.fullHeight}
+        height={height}
       >
         <StyledText
           style={{fontSize: fontSize}}

@@ -55,7 +55,9 @@ const StyledButton = styled.button`
 export default class Buttons extends Component {
   render() {
     return (
-      <StyledButtonDiv>
+      <StyledButtonDiv
+        onClick={this.props.showMenu}
+      >
         <StyledButton
           src="prev.svg"
           onClick={() => this.props.go("back")}
