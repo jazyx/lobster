@@ -89,15 +89,11 @@ class App extends Component {
   getEmpty(item) {
     const empty = []
 
-    try {
-      if (!item.words || item.words.length === 0) {
-        empty.push("words")
-      }
-      if (!item.details || item.details[0] === "ZZZ") {
-        empty.push("info")
-      }
-    } catch (error) {
-      console.log(error)
+    if (!item.words || item.words.length === 0) {
+      empty.push("words")
+    }
+    if (!item.details || item.details[0] === "ZZZ") {
+      empty.push("info")
     }
 
     return empty

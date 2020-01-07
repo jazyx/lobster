@@ -57,8 +57,6 @@ export default class Buttons extends Component {
     const noInfo = this.props.empty.indexOf("info") > -1
     const noWords = this.props.empty.indexOf("words") > -1
 
-    console.log(this.props, noInfo, noWords)
-
     return (
       <StyledButtonDiv
         onClick={this.props.showMenu}
