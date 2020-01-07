@@ -33,10 +33,8 @@ export default class Item extends Component {
   constructor(props) {
     super(props)
 
-    this.adjustSizes = this.adjustSizes.bind(this)
-
     this.canvas = document.createElement('canvas')
-    // this.sizes = this.getMaxSizes()
+    this.adjustSizes = this.adjustSizes.bind(this)
 
     window.addEventListener("resize", this.adjustSizes, false)
   }

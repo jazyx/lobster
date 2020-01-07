@@ -37,7 +37,7 @@ class App extends Component {
 
   initialize() {
     this.last = this.items.length - 1
-    // this.shuffle(this.items)
+    this.shuffle(this.items)
     this.toggleInfo()
     this.go(0)
   }
@@ -127,10 +127,10 @@ class App extends Component {
           hide={this.state.hideInfo}
           info={this.state.info}
           first={this.state.index === 0}
-          last={this.state.index === this.last}       
+          last={this.state.index === this.last}
           showMenu={this.showMenu}
         />
-        <Menu 
+        <Menu
           show={this.state.menu}
           showImage={this.state.showImage}
           toggleImage={this.toggleImage}

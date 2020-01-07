@@ -87,7 +87,7 @@ export default class Menu extends Component {
     const closeBox = this.getCloseBox()
 
     return (
-      <StyledMenu 
+      <StyledMenu
         show={this.props.show}
       >
         {checkBox}
