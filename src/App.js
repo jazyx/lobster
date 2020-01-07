@@ -19,6 +19,7 @@ class App extends Component {
     this.state = {
       item:      { text: "" } //, category: "", image: {}, details: []
     , index:     0
+    , empty:     ["info", "words"]
     //info:      <undefined | "info" | "words" | "credits">
     //menu:      <falsy | true>
     //hideInfo:  <falsy | true>
@@ -80,7 +81,26 @@ class App extends Component {
     }
 
     const item = this.items[index]
-    this.setState({ item, index })
+    const empty = this.getEmpty(item)
+    this.setState({ item, index, empty })
+  }
+
+
+  getEmpty(item) {
+    const empty = []
+
+    try {
+      if (!item.words || item.words.length === 0) {
+        empty.push("words")
+      }
+      if (!item.details || item.details[0] === "ZZZ") {
+        empty.push("info")
+      }
+    } catch (error) {
+      console.log(error)
+    }
+
+    return empty
   }
 
 
@@ -106,7 +126,7 @@ class App extends Component {
 
   toggleInfo() {
     const rect = document.body.getBoundingClientRect()
-    const hideInfo = (rect.width > rect.height)
+    const hideInfo = (rect.width > rect.height) // true in landscape
     this.setState({ hideInfo })
   }
 
@@ -131,10 +151,11 @@ class App extends Component {
         <Buttons
           go={this.go}
           show={this.show}
-          hide={this.state.hideInfo}
           info={this.state.info}
+          hide={this.state.hideInfo}
           first={this.state.index === 0}
           last={this.state.index === this.last}
+          empty={this.state.empty}
           showMenu={this.showMenu}
         />
         <Menu

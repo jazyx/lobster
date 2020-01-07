@@ -46,7 +46,7 @@ const StyledButton = styled.button`
    }
 
   ${props => props.hide
-           ? "display:none;"
+           ? "visibility:hidden;pointer-events;cursor:default;"
            : ""
    }
 
@@ -54,6 +54,11 @@ const StyledButton = styled.button`
 
 export default class Buttons extends Component {
   render() {
+    const noInfo = this.props.empty.indexOf("info") > -1
+    const noWords = this.props.empty.indexOf("words") > -1
+
+    console.log(this.props, noInfo, noWords)
+
     return (
       <StyledButtonDiv
         onClick={this.props.showMenu}
@@ -67,13 +72,13 @@ export default class Buttons extends Component {
           src="info.svg"
           onClick={() => this.props.show("info")}
           active={this.props.info === "info"}
-          hide={this.props.hide}
+          hide={this.props.hide || noInfo}
         />
         <StyledButton
           src="words.svg"
           onClick={() => this.props.show("words")}
-           active={this.props.info === "words"}
-          hide={this.props.hide}
+          active={this.props.info === "words"}
+          hide={this.props.hide || noWords}
         />
         <StyledButton
           src="credits.svg"
