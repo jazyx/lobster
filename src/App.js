@@ -16,7 +16,14 @@ class App extends Component {
     this.toggleInfo = this.toggleInfo.bind(this)
     this.toggleImage = this.toggleImage.bind(this)
 
-    this.state = { item: { text: "" }, index: 0 }
+    this.state = {
+      item:      { text: "" } //, category: "", image: {}, details: []
+    , index:     0
+    //info:      <undefined | "info" | "words" | "credits">
+    //menu:      <falsy | true>
+    //hideInfo:  <falsy | true>
+    //showImage: <falsy | true>
+    }
     this.last = 0
 
     fetch("data/data.json")

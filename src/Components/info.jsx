@@ -81,12 +81,13 @@ export default class Info extends Component {
 
   getSizes() {
     const rect = document.body.getBoundingClientRect()
+    const landscape = rect.width > rect.height
     const size = Math.min(rect.width, rect.height * 0.8)
 
     // HACK: padding would be better treated as 10vmin, but Android
     // doesn't seem to like that
     const padding = rect.width * 0.1
-    return { size, padding }
+    return { size, padding, landscape }
   }
 
 
@@ -169,6 +170,10 @@ export default class Info extends Component {
 
 
   getInfo(infoType) {
+    if (this.state.landscape) {
+      return ""
+    }
+
     switch (infoType) {
       case "credits":
         return this.getCredits()
@@ -202,7 +207,7 @@ export default class Info extends Component {
       >
         <Image
           image={this.props.item.image}
-          dim={!!this.props.info}
+          dim={!!info}
         />
         <StyledListWrapper>
           {info}
